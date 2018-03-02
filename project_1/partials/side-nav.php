@@ -10,7 +10,7 @@
 					<li class="navlist-item"><a class="navlist-link" href="footer.php">Footers</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="forms.php">Forms</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="global-navigation.php">Global Navigation</a></li>
-					<li class="navlist-item"><a class="navlist-link" href="#">Hero Units</a></li>
+					<li class="navlist-item"><a class="navlist-link" href="hero-units.php">Hero Units</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="#">Lists</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="#">Media Objects</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="#">Navigation Lists</a></li>

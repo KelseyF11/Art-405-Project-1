@@ -45,14 +45,16 @@
 		font-weight: 400;
 		font-size: 60px;
 		margin-top: 110px;
+
 	}
 
-	li{
-		margin-top: 130px;
+	.list-item-home-btn{
+		margin-top: 180px;
 		list-style-type: none;
 		font-size: 20px;
 		color: #ffffff;
-		display: block;
+		text-align: center;
+
 	}
 
 	.btn{
@@ -74,7 +76,7 @@
 		<header>
 			<h1>HTML and CSS Component Library</h1>
 		</header>
-		<li><a class="btn" href="alerts.php">Get Started</a></div><li>
+		<li class="list-item-home-btn";><a class="btn" href="alerts.php">Get Started</a></div><li>
 	</div>
 </body>
 </html>

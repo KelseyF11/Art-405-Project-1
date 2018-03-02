@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Global Navigation</title>
+	<title>Hero Units</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -44,35 +44,32 @@ h1{
 
 h1:hover{
 	text-decoration: none no-underline;
-}
+}	
 
 header{
 	width: 220px;
 	background: #009fd4;
 }
 
-.list-item-alert{
-	list-style-type: none;
-	text-align: left;
-	padding: 15px;
-	padding-left: 0px;
-	margin-left: -25px;
-	font-size: 20px;
-	color: #ffffff;
-}	
-
-
-
 </style>
 <body>
 	<?php include 'partials/side-nav.php';?>
 	<div class="container">
-			<h2>Global Navigation</h2>
+			<h2>Hero Units</h2>
 			<hr>
 			<p></p>
-		<div>
-			
-		</div>	
+		<div class="hero-units">
+			<div class="hero-unit-nav-bar">
+				<img class="hero-unit-logo" src="images/jellyfish-logo-01.png">
+				<a class="hero-units-nav-link" href="#">Home</a>
+				<a class="hero-units-nav-link" href="#">Products</a>
+				<a class="hero-units-nav-link" href="#">Contact</a>
+				<a class="hero-units-nav-link" href="#">About</a>
+			</div>
+			<div>
+					<img src="images/jellyfish-3.jpg">
+					<button class="hu-btn">Book Now</button>
+			</div>	
 	</div>
 </body>
 </html>
