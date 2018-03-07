@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Badges</title>
+	<title>Alerts</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -30,7 +30,6 @@ a:visited {
 	text-decoration: none;
 }
 
-
 body{
 	background-color: #efefef;
 	margin-top: 0px;
@@ -38,12 +37,12 @@ body{
 }
 
 
-h1 a{
+h1{
 	padding-left: 5px;
 
 }
 
-h1 a:hover{
+h1:hover{
 	text-decoration: none no-underline;
 }
 
@@ -66,24 +65,14 @@ header{
 
 </style>
 <body>
-<?php include 'partials/side-nav.php';?>
+	<?php include 'partials/side-nav.php';?>
 	<div class="container">
-			<h2>Badges</h2>
+			<h2>Global Navigation</h2>
 			<hr>
-			<p></p>	
-				<span class="badge"></span>
-				<button class="badge-btn">5</button>
-			<div style="color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;"><i class="fas fa-comment"></i>
-			</div>
-			<div class="coding-bg">
-				<pre><code>	
-&lt;span class=&quot;badge&quot;&gt;&lt;/span&gt;
-    &lt;button class=&quot;badge-btn&quot;&gt;5&lt;/button&gt;
-	&lt;div style=&quot;color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;&quot;&gt;
-	&lt;i class=&quot;fas fa-comment&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-				</code></pre>
-    		</div>
-
+			<p></p>
+		<div>
+			
+		</div>	
 	</div>
 </body>
 </html>

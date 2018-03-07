@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Badges</title>
+	<title>Media Objects</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -38,12 +38,12 @@ body{
 }
 
 
-h1 a{
+h1{
 	padding-left: 5px;
 
 }
 
-h1 a:hover{
+h1:hover{
 	text-decoration: none no-underline;
 }
 
@@ -66,24 +66,26 @@ header{
 
 </style>
 <body>
-<?php include 'partials/side-nav.php';?>
+	<?php include 'partials/side-nav.php';?>
 	<div class="container">
-			<h2>Badges</h2>
+			<h2>Media Objects</h2>
 			<hr>
-			<p></p>	
-				<span class="badge"></span>
-				<button class="badge-btn">5</button>
-			<div style="color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;"><i class="fas fa-comment"></i>
-			</div>
-			<div class="coding-bg">
-				<pre><code>	
-&lt;span class=&quot;badge&quot;&gt;&lt;/span&gt;
-    &lt;button class=&quot;badge-btn&quot;&gt;5&lt;/button&gt;
-	&lt;div style=&quot;color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;&quot;&gt;
-	&lt;i class=&quot;fas fa-comment&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-				</code></pre>
-    		</div>
+			<p></p>
+		<div class="media-object">
+			<img class="thumbnail" src="images/pumpkins.jpeg" width="150px">
+			<h2 class="title">How to carve a pumpkin</h2>
+			<p class="description">In this week's video, I will show you how to carve a pumpkin...</p>
+        </div>
 
+ 	<div class="coding-bg">
+		<pre><code>
+&lt;div class=&quot;media-object&quot;&gt;
+  &lt;img class=&quot;thumbnail&quot; src=&quot;images/pumpkins.jpeg&quot; width=&quot;150px&quot;&gt;
+	&lt;h2 class=&quot;title&quot;&gt;How to carve a pumpkin&lt;/h2&gt;
+	&lt;p class=&quot;description&quot;&gt;In this week's video, I will show you how to carve a pumpkin...&lt;/p&gt;
+&lt;/div&gt;
+		</code></pre>
+    </div>
 	</div>
 </body>
 </html>

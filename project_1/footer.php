@@ -98,7 +98,20 @@ p{
 			</div>
 				<h5>&copy 2018 Kelsey Franco. All rights reserved.</h5>
 		</footer>
-
+	<div class="coding-bg">
+		<pre><code>
+&lt;footer class=&quot;diagonal-gradient&quot;&gt;
+&lt;p&gt;This is a footer which goes at the bottom of each website.&lt;/p&gt;
+&lt;div style=&quot;font-size: 40px; color: white; padding: 10px; text-align: right; margin-top: -80px;&quot;&gt;
+	    &lt;i class=&quot;fab fa-facebook-square&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	    &lt;i class=&quot;fab fa-twitter-square&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	    &lt;i class=&quot;fab fa-youtube&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	    &lt;i class=&quot;fab fa-instagram&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+	&lt;h5&gt;&amp;copy 2018 Kelsey Franco. All rights reserved.&lt;/h5&gt;
+&lt;/footer&gt;
+		</code></pre>
+    </div>
 
 	</div>
 </body>

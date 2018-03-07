@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Global Navigation</title>
+	<title>Footer</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -30,20 +30,30 @@ a:visited {
 	text-decoration: none;
 }
 
+
 body{
 	background-color: #efefef;
 	margin-top: 0px;
 	padding-top: 0px;
 }
 
+footer{
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 10px;
+width: 900px;
+}
 
 h1{
 	padding-left: 5px;
-
 }
 
-h1:hover{
-	text-decoration: none no-underline;
+h5{
+	font-family: "skolar-sans-latin",sans-serif;
+	color: #ffffff;
+	font-size: 10px;
+	text-align: center;
+	font-weight:100;
 }
 
 header{
@@ -51,6 +61,10 @@ header{
 	background: #009fd4;
 }
 
+i{
+	width: 20px;
+	height: 20px;
+}
 .list-item-alert{
 	list-style-type: none;
 	text-align: left;
@@ -61,22 +75,31 @@ header{
 	color: #ffffff;
 }	
 
-
+p{
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "skolar-sans-latin",sans-serif;
+	font-weight: 100;
+}
 
 </style>
 <body>
 	<?php include 'partials/side-nav.php';?>
 	<div class="container">
-			<h2>Global Navigation</h2>
-			<hr>
-			<p></p>
-			<div class="hero-unit-nav-bar">
-					<img class="hero-unit-logo" src="images/jellyfish-logo-01.png">
-					<a class="hero-units-nav-link" href="#">Home</a>
-					<a class="hero-units-nav-link" href="#">Products</a>
-					<a class="hero-units-nav-link" href="#">Contact</a>
-					<a class="hero-units-nav-link" href="#">About</a>
+				<h2>Footer</h2>
+				<hr>
+		<footer class="diagonal-gradient">
+				<p>This is a footer which goes at the bottom of each website.</p>
+			<div style="font-size: 40px; color: white; padding: 10px; text-align: right; margin-top: -80px;">
+				<i class="fab fa-facebook-square" style="padding: 15px;"></i>
+				<i class="fab fa-twitter-square" style="padding: 15px;"></i>
+				<i class="fab fa-youtube" style="padding: 15px;"></i>
+				<i class="fab fa-instagram" style="padding: 15px;"></i>
 			</div>
+				<h5>&copy 2018 Kelsey Franco. All rights reserved.</h5>
+		</footer>
+
+
 	</div>
 </body>
 </html>

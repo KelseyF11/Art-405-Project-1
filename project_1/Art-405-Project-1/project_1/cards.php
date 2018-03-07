@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Badges</title>
+	<title>Cards</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <style>
 
@@ -37,19 +36,29 @@ body{
 	padding-top: 0px;
 }
 
-
-h1 a{
-	padding-left: 5px;
-
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 350px;
 }
 
-h1 a:hover{
-	text-decoration: none no-underline;
+
+h1{
+	padding-left: 5px;
+}
+
+h4{
+	font-family: "skolar-sans-latin",sans-serif;
+	color: #3455db;
+	font-size: 26px;
 }
 
 header{
 	width: 220px;
 	background: #009fd4;
+}
+
+.info {
+    padding: 2px 10px;
 }
 
 .list-item-alert{
@@ -66,23 +75,18 @@ header{
 
 </style>
 <body>
-<?php include 'partials/side-nav.php';?>
+	<?php include 'partials/side-nav.php';?>
 	<div class="container">
-			<h2>Badges</h2>
+			<h2>Cards</h2>
 			<hr>
-			<p></p>	
-				<span class="badge"></span>
-				<button class="badge-btn">5</button>
-			<div style="color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;"><i class="fas fa-comment"></i>
-			</div>
-			<div class="coding-bg">
-				<pre><code>	
-&lt;span class=&quot;badge&quot;&gt;&lt;/span&gt;
-    &lt;button class=&quot;badge-btn&quot;&gt;5&lt;/button&gt;
-	&lt;div style=&quot;color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;&quot;&gt;
-	&lt;i class=&quot;fas fa-comment&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-				</code></pre>
-    		</div>
+		<div class="card">
+				<img src="http://via.placeholder.com/350x380" alt="Placeholder"">
+		 	<div class="info">
+		 		<h4>Card</h4>
+		 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		 	</div>
+		</div>
+
 
 	</div>
 </body>

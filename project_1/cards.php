@@ -86,7 +86,17 @@ header{
 		 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 		 	</div>
 		</div>
-
+	<div class="coding-bg">
+		<pre><code>
+&lt;div class=&quot;card&quot;&gt;
+      &lt;img src=&quot;http://via.placeholder.com/350x380&quot; alt=&quot;Placeholder&quot;&quot;&gt;
+    &lt;div class=&quot;info&quot;&gt;
+	&lt;h4&gt;Card&lt;/h4&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+     &lt;/div&gt;
+&lt;/div&gt;
+		</code></pre>
+    </div>
 
 	</div>
 </body>

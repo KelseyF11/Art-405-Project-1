@@ -75,7 +75,17 @@ header{
 	 		<li><a href="#">Second</a></li>
 	 		<li class="active"> Third</li>
 	 		<li><a href="#">Fourth</a></li>
-		</ol>	
+		</ol>
+		<div class="coding-bg">
+				<pre><code>	
+		&lt;ol class=&quot;breadcrumb&quot;&gt;
+	 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+	 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Second&lt;/a&gt;&lt;/li&gt;
+	 		&lt;li class=&quot;active&quot;&gt; Third&lt;/li&gt;
+	 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Fourth&lt;/a&gt;&lt;/li&gt;
+		&lt;/ol&gt;
+				</code></pre>
+    	</div>	
 	</div>
 </body>
 </html>

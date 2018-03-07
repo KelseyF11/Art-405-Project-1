@@ -81,6 +81,10 @@ h1:hover{
 	text-decoration: none no-underline;
 }
 
+header{
+	width: 220px;
+	background: #009fd4;
+}
 
 .list-item-alert{
 	list-style-type: none;
@@ -105,29 +109,10 @@ h1:hover{
 	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 			<strong>Warning!</strong> This site might contain a virus.
 		</div>
-		 	<div class="coding-bg">
-			  <pre><code>
-&lt;div class=&quot;alert-warning&quot;&gt;
-	&lt;span class=&quot;closebtn&quot; onclick=&quot;this.parentElement.style.display='none';&quot;&gt;&amp;times;&lt;/span&gt;
-	&lt;strong&gt;Warning!&lt;/strong&gt; This site might contain a virus.
-&lt;/div&gt;
-			  </code></pre>
-    		</div>
-
 	<div class="alert-notice">
 	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 			<strong><i class="fas fa-info-circle" style="font-size: 25px;"></i></i></strong> Your form has been sent.
-		</div>
-
-	<div class="coding-bg">
-		<pre><code>
-&lt;div class=&quot;alert-notice&quot;&gt;
-	  &lt;span class=&quot;closebtn&quot; onclick=&quot;this.parentElement.style.display='none';&quot;&gt;&amp;times;&lt;/span&gt;
-	&lt;strong&gt;&lt;i class=&quot;fas fa-info-circle&quot; style=&quot;font-size: 25px;&quot;&gt;
-	&lt;/i&gt;&lt;/i&gt;&lt;/strong&gt; Your form has been sent.
-&lt;/div&gt;	
-		</code></pre>
-    </div>		
+		</div>		
 	</div>
 </body>
 </html>

@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Badges</title>
+	<title>Buttons</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <style>
 
@@ -37,20 +36,34 @@ body{
 	padding-top: 0px;
 }
 
-
-h1 a{
-	padding-left: 5px;
-
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
 }
 
-h1 a:hover{
-	text-decoration: none no-underline;
+.btn-hover:hover{
+	background-color: #3455db;
+}
+.btn-rounded{
+	border-radius: 4px;
+}
+.btn-shadow-hover:hover{
+	box-shadow: 0px 3px #888888;
+}
+
+h1{
+	padding-left: 5px;
 }
 
 header{
 	width: 220px;
 	background: #009fd4;
 }
+
 
 .list-item-alert{
 	list-style-type: none;
@@ -66,23 +79,14 @@ header{
 
 </style>
 <body>
-<?php include 'partials/side-nav.php';?>
+	<?php include 'partials/side-nav.php';?>
 	<div class="container">
-			<h2>Badges</h2>
-			<hr>
-			<p></p>	
-				<span class="badge"></span>
-				<button class="badge-btn">5</button>
-			<div style="color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;"><i class="fas fa-comment"></i>
-			</div>
-			<div class="coding-bg">
-				<pre><code>	
-&lt;span class=&quot;badge&quot;&gt;&lt;/span&gt;
-    &lt;button class=&quot;badge-btn&quot;&gt;5&lt;/button&gt;
-	&lt;div style=&quot;color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;&quot;&gt;
-	&lt;i class=&quot;fas fa-comment&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-				</code></pre>
-    		</div>
+		<h2>Buttons</h2>
+		<hr>
+		<button class="btn">Button</button>
+		<button class="btn btn-shadow-hover">Button</button>
+		<button class="btn btn-hover">Button</button>
+		<button class="btn btn-hover btn-rounded">Button</button>
 
 	</div>
 </body>

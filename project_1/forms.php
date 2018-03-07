@@ -107,6 +107,24 @@ input{
 			  <a class="submit" href="#">Submit</a>
 			</form> 
 		</div>
+<div class="coding-bg">
+		<pre><code>
+&lt;div class=&quot;form-bg&quot;&gt;
+	&lt;h3&gt;Sign In&lt;/h3&gt;
+     &lt;form action=&quot;/action_page.php&quot;&gt;
+		 Email:&lt;br&gt;
+	         &lt;input type=&quot;text&quot; name=&quot;firstname&quot; value=&quot;&quot;&gt;
+		&lt;br&gt;
+	 &lt;div class=&quot;form-padding-top&quot;&gt;
+		Password:&lt;br&gt;
+		 &lt;input type=&quot;text&quot; name=&quot;lastname&quot; value=&quot;&quot;&gt;
+		&lt;br&gt;&lt;br&gt;
+	&lt;/div&gt;
+	 &lt;a class=&quot;submit&quot; href=&quot;#&quot;&gt;Submit&lt;/a&gt;
+   &lt;/form&gt; 
+&lt;/div&gt;
+		</code></pre>
+</div>
 	</div>
 </body>
 </html>

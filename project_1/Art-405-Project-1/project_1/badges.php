@@ -75,14 +75,7 @@ header{
 				<button class="badge-btn">5</button>
 			<div style="color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;"><i class="fas fa-comment"></i>
 			</div>
-			<div class="coding-bg">
-				<pre><code>	
-&lt;span class=&quot;badge&quot;&gt;&lt;/span&gt;
-    &lt;button class=&quot;badge-btn&quot;&gt;5&lt;/button&gt;
-	&lt;div style=&quot;color: white; font-size: 30px; margin-left: 8px; margin-top:-1px;&quot;&gt;
-	&lt;i class=&quot;fas fa-comment&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-				</code></pre>
-    		</div>
+
 
 	</div>
 </body>
