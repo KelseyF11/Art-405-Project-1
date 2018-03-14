@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cards</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <style>
 
@@ -78,7 +83,7 @@ header{
 	<?php include 'partials/side-nav.php';?>
 	<div class="container">
 			<h2>Cards</h2>
-			<hr>
+<!-- 		
 		<div class="card">
 				<img src="http://via.placeholder.com/350x380" alt="Placeholder"">
 		 	<div class="info">
@@ -96,8 +101,50 @@ header{
      &lt;/div&gt;
 &lt;/div&gt;
 		</code></pre>
+     -->
+
+	<div class="mobileHide row">
+     <div class="card-img" style="overflow: hidden;">
+      <img src="images/jellyfish-2.jpg" height="420" width="800;" style=" margin-left:-30px; border-radius: 5px;" >
+    </div>
+    <div class="card-info">
+      <div class="card-text">
+        <h1 style="padding-bottom: 20px;">World of Jellyfish</h1>
+        <p>	Jellyfish have drifted along on ocean currents for millions of years, even <br>before dinosaurs lived on the Earth. Despite their name, jellyfish aren't <br>actually fish— they're invertebrates...<br> or animals with no backbones.</p>
+      </div>
+
+
+      <div class="card-btn">
+        <button type="button">Learn more</button>
+      </div>
+    </div>
+	</div>
+		<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			  <pre><code class="html">
+&lt;div class=&quot;card-img&quot; style=&quot;overflow: hidden;&quot;&gt;
+      &lt;img src=&quot;images/jellyfish-2.jpg&quot; height=&quot;420&quot; width=&quot;800;&quot; style=&quot; margin-left:-30px; border-radius: 5px;&quot; &gt;
+&lt;/div&gt;
+&lt;div class=&quot;card-info&quot;&gt;
+    &lt;div class=&quot;card-text&quot;&gt;
+        &lt;h1 style=&quot;padding-bottom: 20px;&quot;&gt;World of Jellyfish&lt;/h1&gt;
+        &lt;p&gt;	Jellyfish have drifted along on ocean currents for millions of years, even &lt;br&gt;before dinosaurs lived on the Earth. Despite their name, jellyfish aren't &lt;br&gt;actually fish&mdash; they're invertebrates...&lt;br&gt; or animals with no backbones.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card-btn&quot;&gt;
+        &lt;button type=&quot;button&quot;&gt;Learn more&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+				</code></pre>
+    		</div>
     </div>
 
-	</div>
+
+
+
+
+  </div>
+
+
 </body>
 </html>

@@ -37,17 +37,27 @@
 		text-decoration: none;
 	}
 
-	h1{
-		text-align: center;
+	/*.main-title*/{
+/*		text-align: center;
+		margin-left: 200px;
+		flex: 1;
 		color: #ffffff;
 		text-shadow: 1px 1px 1px #000060;
 		font-family: "skolar-sans-latin",sans-serif;
 		font-weight: 400;
 		font-size: 60px;
-		margin-top: 110px;
+		margin-top: 110px;*/
 
 	}
-
+	.main-title{
+		text-align: center;
+		margin-top: 110px;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000060;
+		font-family: "skolar-sans-latin",sans-serif;
+		font-weight: 400;
+		font-size: 60px;
+	}
 	.list-item-home-btn{
 		margin-top: 180px;
 		list-style-type: none;
@@ -73,9 +83,9 @@
 </style>
 <body class= "diagonal-gradient full-height">
 	<div>
-		<header>
-			<h1>HTML and CSS Component Library</h1>
-		</header>
+	
+			<h1 class="main-title" style="text-align: center;">HTML and CSS Component Library</h1>
+		
 		<li class="list-item-home-btn";><a class="btn" href="alerts.php">Get Started</a></div><li>
 	</div>
 </body>

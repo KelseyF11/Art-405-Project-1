@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Navigation Lists</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <style>
 
@@ -69,7 +73,7 @@ header{
 	<?php include 'partials/side-nav.php';?>
 	<div class="container">
 			<h2>Navigation Lists</h2>
-			<hr>
+			
 			<p></p>
 		<footer class="nav-list-footer">
 			<div class="nav-lists">
@@ -91,8 +95,9 @@ header{
 			</div>
 			<h5 class="footer-license">&copy 2018 HTML/CSS Library. All rights reserved.</h5>
 		</footer>
- 	<div class="coding-bg">
-		<pre><code>
+	<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			  <pre><code class="html">
 &lt;footer class=&quot;nav-list-footer&quot;&gt;
 	&lt;div class=&quot;nav-lists&quot;&gt;
 		&lt;ul class=&quot;nav-list-col-one&quot;&gt;
@@ -113,8 +118,9 @@ header{
 	&lt;/div&gt;
 	         &lt;h5 class=&quot;footer-license&quot;&gt;&amp;copy 2018 HTML/CSS Library. All rights reserved.&lt;/h5&gt;
 &lt;/footer&gt;
-		</code></pre>
-    </div>
+			</code></pre>
+		    </div>
+		</div>
 	</div>
 </body>
 </html>

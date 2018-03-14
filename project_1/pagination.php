@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Pagination</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <style>
 
@@ -68,7 +72,7 @@ header{
 	<?php include 'partials/side-nav.php';?>
 	<div class="container">
 			<h2>Pagination</h2>
-			<hr>
+			
 			<p></p>
 		<div class="pagination">
 			  <a href="#">&laquo;</a>
@@ -80,8 +84,9 @@ header{
 			  <a href="#">6</a>
  			 <a href="#">&raquo;</a>
 		</div>
-		 	<div class="coding-bg">
-		<pre><code>
+	<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			  <pre><code class="html">
 &lt;div class=&quot;pagination&quot;&gt;
 	&lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;
 	&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;
@@ -92,8 +97,74 @@ header{
 	&lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;
  	&lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;
 &lt;/div&gt;
-		</code></pre>
-    </div>
+			</code></pre>
+   		</div>
+   	</div>
+
+	<h2>Pagination with Rounded Borders</h2>
+
+		<div class="pagination-2">
+		  <a href="#">&laquo;</a>
+		  <a href="#">1</a>
+		  <a class="active" href="#">2</a>
+		  <a href="#">3</a>
+		  <a href="#">4</a>
+		  <a href="#">5</a>
+		  <a href="#">6</a>
+		  <a href="#">&raquo;</a>
+		</div>
+
+
+			<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			<pre><code class="html">
+&lt;div class=&quot;pagination-2&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;
+		&lt;a class=&quot;active&quot; href=&quot;#&quot;&gt;2&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;
+&lt;/div&gt;
+			</code></pre>
+   		</div>
+   	</div>
+
+
+	<h2>Pagination with Margins</h2>
+
+	<div class="pagination-3">
+	  <a href="#">&laquo;</a>
+	  <a href="#">1</a>
+	  <a href="#" class="active">2</a>
+	  <a href="#">3</a>
+	  <a href="#">4</a>
+	  <a href="#">5</a>
+	  <a href="#">6</a>
+	  <a href="#">&raquo;</a>
 	</div>
+
+	<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			  <pre><code class="html">
+&lt;div class=&quot;pagination-3&quot;&gt;
+	 &lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;
+	 &lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;
+	 &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;2&lt;/a&gt;
+	 &lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;
+	 &lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;
+	 &lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;
+	 &lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;
+	 &lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;
+&lt;/div&gt;
+			</code></pre>
+   		</div>
+   	</div>
+
+
+
+</div>	
 </body>
 </html>
