@@ -42,7 +42,7 @@ body{
 }
 
 footer{
-padding-top: 25px;
+padding-top: 40px;
 padding-bottom: 25px;
 padding-left: 10px;
 width: 900px;
@@ -100,12 +100,15 @@ p{
 </style>
 <body>
 	<?php include 'partials/side-nav.php';?>
-	<div class="container">
-				<h2>Footer</h2>
-				
+	<div class="container mobileHide">
+		<div class="row mobileHide">
+			<h1 class="col tabletFull" style="padding-bottom: 20px;
+	padding-top: 20px;">Footer</h1>			
+		</div>
+			
+			<div class="row mobileHide" style="padding-right: 20px;">	
 		<footer class="diagonal-gradient">
-				<p>This is a footer which goes at the bottom of each website.</p>
-			<div style="font-size: 40px; color: white; padding: 10px; text-align: right; margin-top: -80px;">
+			<div style="font-size: 40px; color: white; padding: 10px; text-align: right; margin-top: -50px;">
 				<i class="fab fa-facebook-square" style="padding: 15px;"></i>
 				<i class="fab fa-twitter-square" style="padding: 15px;"></i>
 				<i class="fab fa-youtube" style="padding: 15px;"></i>
@@ -113,6 +116,8 @@ p{
 			</div>
 				<h5>&copy 2018 Kelsey Franco. All rights reserved.</h5>
 		</footer>
+			</div>
+		<h3 class="m-text">HTML</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -131,6 +136,32 @@ p{
 	</div>
 		
 
+<h3 class="m-text">CSS</h3>
+<div class="row mobileHide fourSixth pd-r">
+	<div class="coding-bg col">
+		<pre><code class="css">
+.diagonal-gradient{
+	background: linear-gradient(to bottom right, #009fd4, #3455db) no-repeat;
+	background-size: 
+}
+
+footer{
+padding-top: 40px;
+padding-bottom: 25px;
+padding-left: 10px;
+width: 900px;
+}
+
+
+i{
+	width: 20px;
+	height: 20px;
+}
+
+		</code></pre>
+    </div>
+</div>
+				<div class="row mobileHide" style="padding-right: 20px;">	
 				<footer class="diagonal-gradient">
 				<div class="logo2" style="margin-left: 50px;">
 	                <a href="#"><img  src="images/jellyfish-logo-01.png"</a>
@@ -156,17 +187,18 @@ p{
 						<li class="nav-list-link">Support</li>
 					</ul>
 				</div>
-				<div style="margin-left: 550px;>
+<!-- 				<div style="margin-left: 550px;">
 
 					<form action="/action_page.php" style="padding: 10px;">
 						<input type="text" name="Email" value="">
 						<button class="btn btn-hover">Subscribe</button>
 					</form>
-				</div>
+				</div> -->
 
 					<h5 style="margin-top: 30px;" >&copy 2018 Kelsey Franco. All rights reserved.</h5>
 						</footer>
-
+					</div>
+<h3 class="m-text">HTML</h3>
 		<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -209,7 +241,290 @@ p{
     	</div>
     </div>
 
+<h3 class="m-text">CSS</h3>
+<div class="row mobileHide fourSixth pd-r">
+	<div class="coding-bg col">
+		<pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
+
+.btn-hover:hover{
+	background-color: #3455db;
+}
+
+.diagonal-gradient{
+	background: linear-gradient(to bottom right, #009fd4, #3455db) no-repeat;
+	background-size: 
+}
+
+footer{
+padding-top: 40px;
+padding-bottom: 25px;
+padding-left: 10px;
+width: 900px;
+}
+
+
+i{
+	width: 20px;
+	height: 20px;
+}
+
+.logo2{
+    float:left;
+    margin-top:35px;
+}
+
+.nav-list-col-two{
+	margin-top: -130px;
+	margin-left: 200px;
+}
+
+.nav-list-link{
+	padding: 5px;
+}
+
+.nav-list-link:hover{
+	color: black;
+}
+
+.social-links{
+        clear:both;
+    }
+
+.social-links a{
+        float:left;
+		font-size: 40px; 
+		color: white; 
+		padding: 10px; 
+		text-align: left; 
+    }
+		</code></pre>
+    </div>
+</div>
 
 	</div>
+
+
+
+
+
+  <!-- MOBILE -->
+
+
+    <div class="container-mobile mobileShow">
+        <div class="row mobileShow">
+          <div class="col oneSixth tabletOneThird">
+            <h2>Footers</h2>
+         </div>
+        </div>
+
+			<div class="row oneSixth mobileShow" style="padding-right: 20px;">	
+		<footer class="diagonal-gradient" style="width: 350px;">
+			<div style="font-size: 40px; color: white; padding: 10px; text-align: right; margin-top: -50px;">
+				<i class="fab fa-facebook-square" style="padding: 15px;"></i>
+				<i class="fab fa-twitter-square" style="padding: 15px;"></i>
+				<i class="fab fa-youtube" style="padding: 15px;"></i>
+				<i class="fab fa-instagram" style="padding: 15px;"></i>
+			</div>
+				<h5>&copy 2018 Kelsey Franco. All rights reserved.</h5>
+		</footer>
+			</div>
+		<h3 class="m-text">HTML</h3>
+	<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
+			  <pre><code class="html">
+&lt;footer class=&quot;diagonal-gradient&quot;&gt;
+&lt;p&gt;This is a footer which goes at the bottom of each website.&lt;/p&gt;
+&lt;div style=&quot;font-size: 40px; color: white; padding: 10px; text-align: right; margin-top: -80px;&quot;&gt;
+	    &lt;i class=&quot;fab fa-facebook-square&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	    &lt;i class=&quot;fab fa-twitter-square&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	    &lt;i class=&quot;fab fa-youtube&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	    &lt;i class=&quot;fab fa-instagram&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+	&lt;h5&gt;&amp;copy 2018 Kelsey Franco. All rights reserved.&lt;/h5&gt;
+&lt;/footer&gt;
+			</code></pre>
+    	</div>
+	</div>
+		
+
+<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+	<div class="coding-bg-sm col">
+		<pre><code class="css">
+.diagonal-gradient{
+	background: linear-gradient(to bottom right, #009fd4, #3455db) no-repeat;
+	background-size: 
+}
+
+footer{
+padding-top: 40px;
+padding-bottom: 25px;
+padding-left: 10px;
+width: 900px;
+}
+
+
+i{
+	width: 20px;
+	height: 20px;
+}
+
+		</code></pre>
+    </div>
+</div>
+				<div class="row mobileShow" style="padding-right: 20px;">	
+				<footer class="diagonal-gradient" style="min-width: 350px; max-width: 100%">
+				<div class="logo2" style="margin-left: 150px; margin-top: -20px;">
+	                <a href="#"><img  src="images/jellyfish-logo-01.png"</a>
+	            </div>
+				 <div class="social-links" style="font-size: 20px; color: white; padding: 5px; text-align: center; margin-top: -30px; margin-left: 10px;">
+
+				<i class="fab fa-facebook-square" style="padding: 15px;"></i>
+				<i class="fab fa-twitter-square" style="padding: 15px;"></i>
+				<i class="fab fa-instagram" style="padding: 15px;"></i>
+	            </div>
+				
+				<div class="footer-links" style="margin-left: 20px; padding-right: 0px;">
+					<ul>
+						<li class="nav-list-link">Home</li>
+						<li class="nav-list-link">Careers</li>
+						<li class="nav-list-link">About Us</li>
+						<li class="nav-list-link">Contact</li>
+					</ul>
+					<ul class="nav-list-col-two">
+						<li class="nav-list-link">News</li>
+						<li class="nav-list-link">Footer</li>
+						<li class="nav-list-link">Terms</li>
+						<li class="nav-list-link">Support</li>
+					</ul>
+				</div>
+
+					<h5 style="margin-top: 30px;" >&copy 2018 Kelsey Franco. All rights reserved.</h5>
+						</footer>
+					</div>
+<h3 class="m-text">HTML</h3>
+		<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col" style="height: 300px;">
+			  <pre><code class="html">
+&lt;footer class=&quot;diagonal-gradient&quot;&gt;
+&lt;div class=&quot;logo2&quot; style=&quot;margin-left: 50px;&quot;&gt;
+	            &lt;a href=&quot;#&quot;&gt;&lt;img  src=&quot;images/jellyfish-logo-01.png&quot;&lt;/a&gt;
+	        &lt;/div&gt;
+	&lt;div class=&quot;social-links&quot; style=&quot;font-size: 20px; color: white; padding: 10px; text-align: left; margin-top: -80px; margin-left: 10px;&quot;&gt;
+
+	&lt;i class=&quot;fab fa-facebook-square&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	&lt;i class=&quot;fab fa-twitter-square&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	&lt;i class=&quot;fab fa-instagram&quot; style=&quot;padding: 15px;&quot;&gt;&lt;/i&gt;
+	&lt;/div&gt;
+				
+	&lt;div class=&quot;footer-links&quot; style=&quot;margin-left: 200px; margin-top: -180px;&quot;&gt;
+		&lt;ul&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;Home&lt;/li&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;Careers&lt;/li&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;About Us&lt;/li&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;Contact&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;nav-list-col-two&quot;&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;News&lt;/li&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;Footer&lt;/li&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;Terms&lt;/li&gt;
+			&lt;li class=&quot;nav-list-link&quot;&gt;Support&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;margin-left: 550px;&gt;
+
+		&lt;form action=&quot;/action_page.php&quot; style=&quot;padding: 10px;&quot;&gt;
+			&lt;input type=&quot;text&quot; name=&quot;Email&quot; value=&quot;&quot;&gt;
+			&lt;button class=&quot;btn btn-hover&quot;&gt;Subscribe&lt;/button&gt;
+		&lt;/form&gt;
+	&lt;/div&gt;
+
+		&lt;h5 style=&quot;margin-top: 30px;&quot; &gt;&amp;copy 2018 Kelsey Franco. All rights reserved.&lt;/h5&gt;
+&lt;/footer&gt;
+			  </code></pre>
+    	</div>
+    </div>
+
+<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+	<div class="coding-bg-sm col" style="height: 300px;">
+		<pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
+
+.btn-hover:hover{
+	background-color: #3455db;
+}
+
+.diagonal-gradient{
+	background: linear-gradient(to bottom right, #009fd4, #3455db) no-repeat;
+	background-size: 
+}
+
+footer{
+padding-top: 40px;
+padding-bottom: 25px;
+padding-left: 10px;
+width: 900px;
+}
+
+
+i{
+	width: 20px;
+	height: 20px;
+}
+
+.logo2{
+    float:left;
+    margin-top:35px;
+}
+
+.nav-list-col-two{
+	margin-top: -130px;
+	margin-left: 200px;
+}
+
+.nav-list-link{
+	padding: 5px;
+}
+
+.nav-list-link:hover{
+	color: black;
+}
+
+.social-links{
+        clear:both;
+    }
+
+.social-links a{
+        float:left;
+		font-size: 40px; 
+		color: white; 
+		padding: 10px; 
+		text-align: left; 
+    }
+		</code></pre>
+    </div>
+</div>
+
+
+
+
+
+    </div>
 </body>
 </html>

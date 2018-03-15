@@ -104,19 +104,19 @@ h1:hover{
 	<?php include 'partials/side-nav.php';?>
 	<div class="container mobileHide">
 		<div class="row mobileHide">
-		  <div class="col fiveSixth tabletOneThird">
-			<h2>Alerts</h2>
+			<h1 class="col tabletFull" style="padding-bottom: 20px;
+	padding-top: 20px;">Alerts</h1>			
 		</div>
-			<!-- <hr> -->
-			<p>Alerts verify the user about something important.</p>
-			
-		</div>
+
+			<br>
 		<div class="row mobileHide">
+			<h2>Alert Warning</h2>
 	<div class="alert-warning col fiveSixth tabletFull">
 	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 			<strong>Warning!</strong> This site might contain a virus.
 	</div>
 		</div>
+				<h3 class="m-text">HTML</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -127,6 +127,7 @@ h1:hover{
 			  </code></pre>
     		</div>
     </div>
+    		<h3 class="m-text">CSS</h3>
 <div class="row mobileHide fourSixth pd-r">
 	<div class="coding-bg col">
 		<pre><code class="css">
@@ -228,15 +229,19 @@ h1:hover{
 
 
 
-
+<hr>
+			<br>
 	
 	<div class="row mobileHide">
+
+		<h2>Alert Notice</h2>
 		<div class="alert-notice col fiveSixth tabletFull"">
 		  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 				<strong><i class="fas fa-info-circle" style="font-size: 25px;"></i></i></strong> Your form has been sent.
 		</div>
 	</div>
 
+		<h3 class="m-text">HTML</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -250,7 +255,7 @@ h1:hover{
     </div>		
 
 
-
+		<h3 class="m-text">CSS</h3>
 <div class="row mobileHide fourSixth pd-r">
 	<div class="coding-bg col">
 		<pre><code class="css">
@@ -391,10 +396,7 @@ h1:hover{
 		<div class="row mobileShow">
 		  <div class="col fiveSixth tabletOneThird">
 			<h2>Alerts</h2>
-		</div>
-			<!-- <hr> -->
-			<p>Alerts verify the user about something important.</p>
-			
+			</div>
 		</div>
 		<div class="row">
 	<div class="alert-warning col fourSixth tabletFull">
@@ -403,6 +405,7 @@ h1:hover{
 	</div>
 		</div>
 		<div class="row">
+					<h3 class="m-text">HTML</h3>
 		 	<div class="coding-bg col tabletOneThird" style="flex:1;">
 			  <pre><code class="html">
 &lt;div class=&quot;alert-warning&quot;&gt;
@@ -412,6 +415,108 @@ h1:hover{
 			  </code></pre>
     		</div>
     	</div>
+
+  		<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+    <div class="coding-bg-sm col" style="height: 300px;">
+        <pre><code class="css">
+.alert-warning{
+	padding: 20px;
+	width: 800px;
+	background-color: red;
+	color: white;
+}
+
+.closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.coding-bg{
+	background-color: transparent;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 800px;
+	border-radius: 5px;
+	padding: 8px 1%;
+	margin: 5px .5%;
+	margin-top: 10px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	height: 200px; 
+}
+.col{
+	padding: 5px 1%;
+	margin: 5px .5%;
+	flex-grow: 0;
+}
+
+.fourSixth{
+	flex-grow: 0;
+	flex-basis: 62.666%;
+}
+.fiveSixth{
+	flex-grow: 0;
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0;
+}
+
+
+
+ @media only screen and (max-width: 960px){
+	.laptopHide{
+		display:none;
+	}
+	.laptopShow{
+		display:inherit;
+	}
+}
+@media only screen and (max-width: 768px){
+	.tabletFull{
+		flex-grow: 0;
+		flex-basis: 96%;
+	}
+	.tabletTwoThirds{
+		flex-grow: 0;
+		flex-basis: 62.666%
+	}
+	.tabletOneThird{
+		flex-grow: 0;
+		flex-basis: 29.333%
+	}
+
+}
+@media only screen and (max-width: 768px){
+	.col{
+		flex-grow: 0;
+		flex-basis: 96%;
+	}
+	.mobileHide{
+		display: none;
+	}
+	.mobileShow{
+		display: inherit;
+	}
+
+
+		</code></pre>
+    </div>
+</div>
+
+
+
+
+
 	
 	<div class="row">
 		<div class="alert-notice col fourSixth tabletFull"">
@@ -420,6 +525,7 @@ h1:hover{
 		</div>
 	</div>
 			<div class="row">
+						<h3 class="m-text">HTML</h3>
 		 	<div class="coding-bg col tabletOneThird" style="flex:1;">
 			  <pre><code class="html">
 &lt;div class=&quot;alert-notice&quot;&gt;
@@ -430,11 +536,110 @@ h1:hover{
 			  </code></pre>
     		</div>
     	</div>
+
+  		<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+    <div class="coding-bg-sm col" style="height: 300px;">
+        <pre><code class="css">
+.alert-notice{
+	padding: 20px;
+	width: 800px;
+	background-color: #85bcf7;
+	color: white;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: #009fd4;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.coding-bg{
+	background-color: transparent;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 800px;
+	border-radius: 5px;
+	padding: 8px 1%;
+	margin: 5px .5%;
+	margin-top: 10px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	height: 200px; 
+}
+.col{
+	padding: 5px 1%;
+	margin: 5px .5%;
+	flex-grow: 0;
+}
+
+.fourSixth{
+	flex-grow: 0;
+	flex-basis: 62.666%;
+}
+.fiveSixth{
+	flex-grow: 0;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0;
+}
+
+
+
+ @media only screen and (max-width: 960px){
+	.laptopHide{
+		display:none;
+	}
+	.laptopShow{
+		display:inherit;
+	}
+}
+@media only screen and (max-width: 768px){
+	.tabletFull{
+		flex-grow: 0;
+		flex-basis: 96%;
+	}
+	.tabletTwoThirds{
+		flex-grow: 0;
+		flex-basis: 62.666%
+	}
+	.tabletOneThird{
+		flex-grow: 0;
+		flex-basis: 29.333%
+	}
+
+}
+@media only screen and (max-width: 768px){
+	.col{
+		flex-grow: 0;
+		flex-basis: 96%;
+	}
+	.mobileHide{
+		display: none;
+	}
+	.mobileShow{
+		display: inherit;
+	}
+
+
+
+		</code></pre>
+    </div>
+</div>
 	</div>
-
-
-
-
 
 
 </body>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>HTML and CSS Component Library</title>
+	<title>Public Code</title>
 	<link rel="stylesheet" href="https://use.typekit.net/qkx2kkx.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -84,7 +84,7 @@
 <body class= "diagonal-gradient full-height">
 	<div>
 	
-			<h1 class="main-title" style="text-align: center;">HTML and CSS Component Library</h1>
+			<h3 class="main-title" style="text-align: center;">Public Code</h3>
 		
 		<li class="list-item-home-btn";><a class="btn" href="alerts.php">Get Started</a></div><li>
 	</div>
