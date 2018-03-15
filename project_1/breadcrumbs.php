@@ -88,7 +88,10 @@ header{
         <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
     </ul>
 	</div> 
-	<h3 class="m-text">Html</h3>
+    <div class="row" style="display: left;">
+        <h3 class= "m-text" style=" margin-top: 50px; margin-right: 900px;">HTML</h3>
+    </div>
+
 		<div class="coding-bg col fiveSixth">
 			  <pre><code class="html">
     &lt;div class=&quot;row mobileHide breadcrumb&quot;&gt; 

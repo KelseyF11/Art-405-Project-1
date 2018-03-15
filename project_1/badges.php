@@ -209,7 +209,7 @@ header{
 
 
 
-			<hr>
+
 			<br>
 			<h2>Message Badge</h2>
 			<div class="row mobileHide fourSixth pd-r">
@@ -217,7 +217,9 @@ header{
 			<button class="btn btn-hover">Messages</button>
 			<button class="badge-btn-red">5</button>
 		</div>
-		<h3 class="m-text">HTML</h3>
+		<div style="margin-top: 50px; margin-left: -280px; padding-left: 100px; padding-bottom: 0px;">
+		<h3 class= "m-text">HTML</h3>
+		</div>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -228,7 +230,9 @@ header{
 			  </code></pre>
     	</div>
     </div>
-    <h3 class="m-text">CSS</h3>
+<div>
+		<h3 class= "m-text">CSS</h3>
+		</div>
 <div class="row mobileHide fourSixth pd-r">
 	<div class="coding-bg col">
 		<pre><code class="css">

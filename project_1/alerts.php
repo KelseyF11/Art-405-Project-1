@@ -111,7 +111,7 @@ h1:hover{
 			<br>
 		<div class="row mobileHide">
 			<h2>Alert Warning</h2>
-	<div class="alert-warning col fiveSixth tabletFull">
+	<div class="alert-warning col fourSixth" style="margin-top: 90px; margin-left: -180px; max-width: 600px;">
 	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 			<strong>Warning!</strong> This site might contain a virus.
 	</div>
@@ -235,7 +235,7 @@ h1:hover{
 	<div class="row mobileHide">
 
 		<h2>Alert Notice</h2>
-		<div class="alert-notice col fiveSixth tabletFull"">
+		<div class="alert-notice col fourSixth tabletFull" style="margin-top: 90px; margin-left: -100px; max-width: 600px;">
 		  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 				<strong><i class="fas fa-info-circle" style="font-size: 25px;"></i></i></strong> Your form has been sent.
 		</div>
@@ -406,7 +406,7 @@ h1:hover{
 		</div>
 		<div class="row">
 					<h3 class="m-text">HTML</h3>
-		 	<div class="coding-bg col tabletOneThird" style="flex:1;">
+		 	<div class="coding-bg col tabletOneThird">
 			  <pre><code class="html">
 &lt;div class=&quot;alert-warning&quot;&gt;
 	&lt;span class=&quot;closebtn&quot; onclick=&quot;this.parentElement.style.display='none';&quot;&gt;&amp;times;&lt;/span&gt;
@@ -526,7 +526,7 @@ h1:hover{
 	</div>
 			<div class="row">
 						<h3 class="m-text">HTML</h3>
-		 	<div class="coding-bg col tabletOneThird" style="flex:1;">
+		 	<div class="coding-bg col tabletOneThird">
 			  <pre><code class="html">
 &lt;div class=&quot;alert-notice&quot;&gt;
 	  &lt;span class=&quot;closebtn&quot; onclick=&quot;this.parentElement.style.display='none';&quot;&gt;&amp;times;&lt;/span&gt;
