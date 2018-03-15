@@ -5,7 +5,6 @@
 			<div>
 				<ul class="navlist">
           <li class="navlist-item"><a class="navlist-link" href="alerts.php">Alerts</a></li>
-					<li class="navlist-item"><a class="navlist-link" href="alerts.php">Alerts</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="badges.php">Badges</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="breadcrumbs.php">Breadcrumbs</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="buttons.php">Buttons</a></li>
@@ -19,7 +18,7 @@
 					<li class="navlist-item"><a class="navlist-link" href="navigation-lists.php">Navigation Lists</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="pagination.php">Pagination</a></li>
 					<li class="navlist-item"><a class="navlist-link" href="tables.php">Tables</a></li>
-           <li class="navlist-item"><a class="navlist-link" src=""><i class="fab fa-github" style="color: white"></i>My GitHub</a></li>
+           <li class="navlist-item"><a class="navlist-link" href="https://github.com/KelseyF11/Art-405-Project-1" target="_blank"><i class="fab fa-github" style="color: white"></i>My GitHub</a></li>
 				</ul>
 			</div>
 </header>
@@ -55,7 +54,7 @@
       <a href="navigation-lists.php">Navigation Lists</a>
       <a href="pagination.php">Pagination</a>
       <a href="tables.php">Tables</a>
-       <a src=""><i class="fab fa-github" style="color: white"></i>My GitHub</a>
+       <a href="https://github.com/KelseyF11/Art-405-Project-1" target="_blank"><i class="fab fa-github" style="color: white"></i>My GitHub</a>
     </div>
   </div>
 </div>
