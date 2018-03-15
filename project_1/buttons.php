@@ -60,8 +60,13 @@ body{
 	box-shadow: 0px 3px #888888;
 }
 
-h1{
+/*h1{
 	padding-left: 5px;
+}*/
+
+h2{
+	font-weight: 400;
+	font-size: 30px;
 }
 
 header{
@@ -86,10 +91,17 @@ header{
 <body>
 	<?php include 'partials/side-nav.php';?>
 	<div class="container mobileHide">
-		<h2>Buttons</h2>
-		<!-- <hr> -->
+		<div class="row mobileHide">
+			<h1 class="col tabletFull" style="padding-bottom: 20px;
+	padding-top: 20px;">Buttons</h1>			
+		</div>
 		
+		<br>
+		<h2>Button</h2>
+
+			<div class="hr"></div>
 		<button class="btn">Button</button>
+		<h3 class="m-text">HTML</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -97,6 +109,7 @@ header{
 				</code></pre>
     		</div>
     	</div>
+    	<h3 class="m-text">CSS</h3>
 <div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="css">
@@ -112,19 +125,23 @@ header{
 	</code></pre>
    </div>
   </div>    
-
+		<hr>
+		 <br>
+	<h2>Button with a Shadow</h2>
 
     <button class="btn btn-shadow-hover">Button</button>
+    <h3 class="m-text">HTML</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
 &lt;button class=&quot;btn btn-shadow-hover&quot;&gt;Button&lt;/button&gt;
 				</code></pre>
     		</div>	
-    	</div>			
-<!-- <div class="row mobileHide fourSixth pd-r">
-	<div class="coding-bg col">
-		<pre><code class="css">
+    	</div>	
+    	<h3 class="m-text">CSS</h3>		
+<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			  <pre><code class="css">
 .btn{
 	background-color: #009fd4;
 	border: none;
@@ -139,9 +156,12 @@ header{
 }
 	</code></pre>
    </div>
-  </div>   -->
-
+  </div> 
+		<hr>
+		<br>
+	<h2>Button Hover</h2>
 	<button class="btn btn-hover">Button</button>
+	<h3 class="m-text">HTML</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">
@@ -149,9 +169,10 @@ header{
 				</code></pre>
     		</div>
     	</div>
-<!-- <div class="row mobileHide fourSixth pd-r">
-	<div class="coding-bg col">
-		<pre><code class="css">
+<h3 class="m-text">CSS</h3>
+<div class="row mobileHide fourSixth pd-r">
+		<div class="coding-bg col">
+			  <pre><code class="css">
 .btn{
 	background-color: #009fd4;
 	border: none;
@@ -167,10 +188,13 @@ header{
 
 	</code></pre>
    </div>
-  </div> -->
+  </div> 
 
-
+		<hr>
+		<br>
+<h2>Button Rounded Corners</h2>
 <button class="btn btn-hover btn-rounded">Button</button>
+<h3 class="m-text">Html</h3>
 	<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
 			  <pre><code class="html">	
@@ -178,54 +202,181 @@ header{
 				</code></pre>
     		</div>
     	</div>
-	</div>
-
-
-
-
-		<div class="container-mobile mobileShow">
-		<h2>Buttons</h2>
-		<hr>
-		<button class="btn">Button</button>
-
-	<div class="row mobileHide oneSixth pd-r">
+	
+<h3 class="m-text">CSS</h3>
+<div class="row mobileHide fourSixth pd-r">
 		<div class="coding-bg col">
+			  <pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
+
+
+.btn-hover:hover{
+	background-color: #3455db;
+}
+
+.btn-rounded{
+	border-radius: 4px;
+}
+	</code></pre>
+   </div>
+  </div> 
+
+</div>
+
+
+
+  <!-- MOBILE -->
+
+
+    <div class="container-mobile mobileShow">
+        <div class="row mobileShow">
+          <div class="col oneSixth tabletOneThird">
+            <h2>Button</h2>
+         </div>
+        </div>
+			<div class="hr"></div>
+		<button class="btn">Button</button>
+		<h3 class="m-text">HTML</h3>
+	<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
 			  <pre><code class="html">
 &lt;button class=&quot;btn&quot;&gt;Button&lt;/button&gt;
 				</code></pre>
     		</div>
     	</div>
+    	<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
+			  <pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
 
+	</code></pre>
+   </div>
+  </div>    
+		<hr>
+		 <br>
+	<h2>Button with a Shadow</h2>
 
     <button class="btn btn-shadow-hover">Button</button>
-	<div class="row mobileHide oneSixth pd-r">
-		<div class="coding-bg col">
+    <h3 class="m-text">HTML</h3>
+	<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
 			  <pre><code class="html">
 &lt;button class=&quot;btn btn-shadow-hover&quot;&gt;Button&lt;/button&gt;
-			</code></pre>
+				</code></pre>
+    		</div>	
     	</div>	
-    </div>			
+    	<h3 class="m-text">CSS</h3>		
+<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
+			  <pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
 
-
+.btn-shadow-hover:hover{
+	box-shadow: 0px 3px #888888;
+}
+	</code></pre>
+   </div>
+  </div> 
+		<hr>
+		<br>
+	<h2>Button Hover</h2>
 	<button class="btn btn-hover">Button</button>
-	<div class="row mobileHide oneSixth pd-r">
-		<div class="coding-bg col">
+	<h3 class="m-text">HTML</h3>
+	<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
 			  <pre><code class="html">
 &lt;button class=&quot;btn btn-hover&quot;&gt;Button&lt;/button&gt;
 				</code></pre>
     		</div>
-    </div>		
+    	</div>
+<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
+			  <pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
 
+.btn-hover:hover{
+	background-color: #3455db;
+}
 
+	</code></pre>
+   </div>
+  </div> 
+
+		<hr>
+		<br>
+<h2>Button Rounded Corners</h2>
 <button class="btn btn-hover btn-rounded">Button</button>
-	<div class="row mobileHide oneSixth pd-r">
-		<div class="coding-bg col">
-			  <pre><code class="html">
+<h3 class="m-text">Html</h3>
+	<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
+			  <pre><code class="html">	
 &lt;button class=&quot;btn btn-hover btn-rounded&quot;&gt;Button&lt;/button&gt;
 				</code></pre>
     		</div>
+    	</div>
+	
+<h3 class="m-text">CSS</h3>
+<div class="row mobileShow fourSixth pd-r">
+		<div class="coding-bg-sm col">
+			  <pre><code class="css">
+.btn{
+	background-color: #009fd4;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 14px 28px;
+}
 
 
-	</div>
+.btn-hover:hover{
+	background-color: #3455db;
+}
+
+.btn-rounded{
+	border-radius: 4px;
+}
+	</code></pre>
+   </div>
+  </div> 
+
+</div>
+
+
+
+
+
+
+
 </body>
 </html>

@@ -177,21 +177,22 @@ padding-top: 30px;
 	margin-top: 10px;
 	overflow-x: scroll;
 	overflow-y: scroll;
-	height: 200px; 
+	height: 100px; 
 }
 
 .coding-bg-sm{
-	background-color: #ffffff;
 	padding-left: 15px;
 	padding-right: 5px;
-	min-width: 800px;
+	width: 100%
+	height:auto;
 	border-radius: 5px;
 	padding: 8px 1%;
 	margin: 5px .5%;
 	margin-top: 10px;
 	overflow-x: scroll;
-
+	overflow-y: scroll 100px;
 }
+
 
 .container{
 	max-width: 960;
@@ -285,7 +286,7 @@ padding-top: 20px
 
 }
 h2{
-	font-size: 50px;
+	font-size: 35px;
 	font-family: "skolar-sans-latin",sans-serif;
 	font-weight: 400;
 	color: #3455db;
@@ -336,11 +337,19 @@ border-bottom: solid;
 }
 
 hr{
-	color: #e0e0e0;
-	margin-top: -40px;
-	margin-right: 50px;
-	max-width: 800px;
+	color: transparent;
+	text-align: left;
+	width: 800px;
+	margin-right: 800px;
+	margin-bottom: -30px;
+	flex-grow: 0;
+
 }
+
+/*.hr{
+	border-bottom: : 3px solid black;
+    width: 800px;
+}*/
 
 html {
   line-height: 1.15; /* 1 */
@@ -348,39 +357,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-.hu-btn{
-    background-repeat:no-repeat;
-	border: none;
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 16px;
-	background-color: transparent;
-	padding: 14px 28px;
-	border-radius: 3px;
-	border-color: #01447e;
-	border-style: solid;
-	margin-left: 500px;
-}
-.hu-btn:hover{
-    background-repeat:no-repeat;
-	border: none;
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 16px;
-	background-color: #01447e;
-	padding: 14px 28px;
-	border-radius: 3px;
-	border-color: #01447e;
-	border-style: solid;
-	margin-left: 480px;
-	box-shadow: 2px 1px 2px  #0282ad;
-}
-
 .hu-text{
 	font-family: "skolar-sans-latin",sans-serif;
-	font-size: 35px;
+	font-size: 3vw;
 	font-weight: 100;
-
 	margin-top: -160px;
 	margin-left: 480px;
 	color: white;
@@ -423,7 +403,6 @@ li{
 .logo2{
     float:left;
     margin-top:35px;
-
 }
 
 
@@ -449,8 +428,24 @@ li{
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 2px 1px 2px  #ddd;
+}
 
-    }
+
+.media-object-bg-sm {
+
+  background-color: #ffffff;
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px  #ddd;
+}
+
 
 .mo-2{
 background-color: #edf3ff;
@@ -488,6 +483,12 @@ margin-top: -100px;
 	width: 800px;
 }
 
+.nav-list-footer-sm{
+	background-color: #01447e; 
+	color:#ffffff;
+	padding: 10px;
+	width: 320px;
+}
 .navlist-item{
 	color: #ffffff;
 	font-size: 20px;
@@ -522,6 +523,16 @@ ol.breadcrumb{
     list-style: none;
     background-color: #428EFE;	
     width: 900px;
+    margin-left: 0px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 1px #01447e;
+}
+
+ol.breadcrumb-sm{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #428EFE;	
+    width: 400px;
     margin-left: 0px;
     border-radius: 25px;
     box-shadow: 0px 1px 1px #01447e;
@@ -681,7 +692,15 @@ table {
     background-color: #0275d8;
     color: white;
 }
+.sm {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 400px;
+    max-width: 600px;
+    background-color: #0275d8;
+    color: white;
 
+}
 
 .table-col{
 	border: 1px solid #428EFE;
@@ -823,12 +842,24 @@ body{
 
 h1{
 	padding-left: 5px;
+	background-color: #009fd4;
+	color: white;
+	width: 780px;
+	padding: 20px;
 
 }
 
 h1:hover{
 	text-decoration: none no-underline;
 }	
+
+.h1Mobile{
+	padding-left: 5px;
+	color: #009fd4;
+	width: 780px;
+	padding: 20px;
+
+}
 
 .bg-blue{
 	background: #009fd4;
@@ -856,10 +887,11 @@ h1:hover{
 }
 
 .dropdown-content {
+	margin-top: 7px;
     display: none;
     position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
+    right: 90;
+    background-color: #009fd4;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -867,14 +899,14 @@ h1:hover{
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #01447e}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -884,7 +916,7 @@ h1:hover{
     background-color: #01447e;
 }
 
-
+.show {display:block;}
 
 
 
@@ -920,20 +952,20 @@ h1:hover{
   width: 327px;
 }
 
-.card-text h1 {
+.card-text h2 {
   margin: 0 0 0 38px;
   padding-top: 52px;
   font-size: 34px;
   color: #474747;
 }
 
-.card-text h1,
+.card-text h2,
 .card-btn p {
   font-family: 'Bentham', serif;
 }
 
-.card-text h2 {
-  margin: 0 0 47px 38px;
+.card-text h3 {
+  margin: 0 0 47px 38px
   font-size: 13px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
